@@ -109,6 +109,22 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Credibility Section */}
+      <section className="py-12 border-b border-border">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="text-sm text-muted-foreground mb-6">Trusted by Industry Leaders</p>
+            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+              <div className="text-muted-foreground font-medium">ELFA Member</div>
+              <div className="text-muted-foreground font-medium">Insight Investments</div>
+              <div className="text-muted-foreground font-medium">KLC Equipment Finance</div>
+              <div className="text-muted-foreground font-medium">Consult Disrupt</div>
+              <div className="text-muted-foreground font-medium">LeasePath</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Problem Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-6">
@@ -380,13 +396,14 @@ export default function Home() {
               Investment
             </h2>
             <p className="text-xl text-muted-foreground text-center mb-12">
-              One fixed price. Complete AI governance. No surprises.
+              Comprehensive AI governance that protects your bank and enables innovation.
             </p>
 
             <Card className="p-8 bg-card text-card-foreground border-blue-500/50 border-2">
               <div className="text-center mb-6">
-                <div className="text-5xl font-bold mb-2">$100,000</div>
-                <div className="text-muted-foreground">90-Day Pilot Program</div>
+                <div className="text-sm text-blue-400 font-medium mb-2">90-Day Pilot Program</div>
+                <div className="text-5xl font-bold mb-2">Starting at $100K</div>
+                <div className="text-muted-foreground">Custom pricing based on bank size and complexity</div>
               </div>
 
               <div className="space-y-3 mb-8">
@@ -431,9 +448,11 @@ export default function Home() {
               </Button>
             </Card>
 
-            <p className="text-center text-sm text-muted-foreground mt-6">
-              Compare to Big 4 consultants at $500/hour for 18+ months. We deliver faster, better, and more affordably.
-            </p>
+            <div className="mt-8 p-4 bg-muted/50 rounded-lg">
+              <p className="text-center text-sm text-muted-foreground">
+                <strong className="text-foreground">ROI:</strong> Avoid $500K+ in regulatory penalties and consultant fees. Get examiner-ready governance in 90 days vs. 18+ months with Big 4 firms.
+              </p>
+            </div>
           </div>
         </div>
       </section>

@@ -16,3 +16,9 @@
 ## Bugs
 
 (None yet)
+
+## New Updates
+
+- [x] Add credibility section with ELFA, Insight Investments, KLC Equipment Finance, Consult Disrupt, LeasePath
+- [x] Soften pricing from "$100,000" to "Starting at $100K"
+- [x] Add ROI focus to pricing section
