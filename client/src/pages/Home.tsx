@@ -468,69 +468,20 @@ export default function Home() {
               Schedule a 30-minute discovery call. We'll discuss your AI usage, regulatory concerns, and how BankFlow.ai can help.
             </p>
 
-            <Card className="p-8 bg-card text-card-foreground border-border">
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid sm:grid-cols-2 gap-6">
-                  <div className="space-y-2">
-                    <Label htmlFor="name">Name *</Label>
-                    <Input
-                      id="name"
-                      required
-                      value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      placeholder="John Smith"
-                      className="bg-background"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="email">Email *</Label>
-                    <Input
-                      id="email"
-                      type="email"
-                      required
-                      value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      placeholder="john@bank.com"
-                      className="bg-background"
-                    />
-                  </div>
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="bank">Bank Name *</Label>
-                  <Input
-                    id="bank"
-                    required
-                    value={formData.bank}
-                    onChange={(e) => setFormData({ ...formData, bank: e.target.value })}
-                    placeholder="Community Bank of Example"
-                    className="bg-background"
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="title">Title *</Label>
-                  <Input
-                    id="title"
-                    required
-                    value={formData.title}
-                    onChange={(e) => setFormData({ ...formData, title: e.target.value })}
-                    placeholder="Chief Risk Officer"
-                    className="bg-background"
-                  />
-                </div>
-
-                <Button type="submit" size="lg" className="w-full text-lg">
-                  Schedule Discovery Call
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-
-                <p className="text-xs text-muted-foreground text-center">
-                  We'll contact you within 24 hours to schedule your discovery call. No obligation.
-                </p>
-              </form>
+            <Card className="p-2 bg-card text-card-foreground border-border overflow-hidden">
+              {/* Calendly inline widget */}
+              <div 
+                className="calendly-inline-widget" 
+                data-url="https://calendly.com/YOUR-USERNAME/discovery-call?hide_gdpr_banner=1&primary_color=3b82f6"
+                style={{ minWidth: '320px', height: '700px' }}
+              />
             </Card>
+            
+            <p className="text-center text-sm text-muted-foreground mt-6">
+              <strong>Note:</strong> Update the Calendly URL in the code with your actual link.
+              <br />
+              Go to Settings → Code panel → Edit <code className="text-xs bg-muted px-1 py-0.5 rounded">client/src/pages/Home.tsx</code> and replace <code className="text-xs bg-muted px-1 py-0.5 rounded">YOUR-USERNAME</code>
+            </p>
           </div>
         </div>
       </section>

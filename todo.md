@@ -22,3 +22,9 @@
 - [x] Add credibility section with ELFA, Insight Investments, KLC Equipment Finance, Consult Disrupt, LeasePath
 - [x] Soften pricing from "$100,000" to "Starting at $100K"
 - [x] Add ROI focus to pricing section
+
+## Calendar Integration
+
+- [x] Add Calendly embed widget to contact section
+- [x] Add Calendly script to HTML
+- [ ] Update placeholder URL with actual Calendly link (user action needed)
