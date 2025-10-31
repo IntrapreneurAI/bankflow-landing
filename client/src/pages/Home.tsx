@@ -68,7 +68,7 @@ export default function Home() {
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Regulators are watching. Banks are getting findings. You need AI governance that satisfies examiners without killing innovation.
+              Your bank is innovating with AI. We help you build the governance framework that enables safe adoption while satisfying regulatory expectations.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -130,34 +130,34 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-              The Problem Every CRO Faces
+              We Understand Your Challenge
             </h2>
             <p className="text-xl text-muted-foreground text-center mb-12">
-              You're using AI through vendors. Regulators expect governance. But you don't have the resources.
+              You're embracing AI to serve customers better. We help you do it confidently with the right governance in place.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6">
               <Card className="p-6 bg-card text-card-foreground border-border">
                 <Building2 className="h-12 w-12 text-blue-500 mb-4" />
-                <h3 className="text-xl font-bold mb-2">Hidden AI Systems</h3>
+                <h3 className="text-xl font-bold mb-2">AI Visibility</h3>
                 <p className="text-muted-foreground">
-                  Your vendors use AI for fraud detection, credit scoring, and customer service. But can you document it?
+                  We help you identify and document every AI system—vendor and internal—so you have complete visibility and control.
                 </p>
               </Card>
 
               <Card className="p-6 bg-card text-card-foreground border-border">
                 <Scale className="h-12 w-12 text-blue-500 mb-4" />
-                <h3 className="text-xl font-bold mb-2">Regulatory Pressure</h3>
+                <h3 className="text-xl font-bold mb-2">Regulatory Confidence</h3>
                 <p className="text-muted-foreground">
-                  Federal Reserve, OCC, and CFPB have issued guidance. Examiners are asking. Banks are getting findings.
+                  We translate regulatory guidance into practical frameworks that satisfy examiners while enabling innovation.
                 </p>
               </Card>
 
               <Card className="p-6 bg-card text-card-foreground border-border">
                 <Target className="h-12 w-12 text-blue-500 mb-4" />
-                <h3 className="text-xl font-bold mb-2">Resource Constraints</h3>
+                <h3 className="text-xl font-bold mb-2">Practical Solutions</h3>
                 <p className="text-muted-foreground">
-                  Big 4 consultants charge $500/hour. You don't have a model risk team. And you're already stretched thin.
+                  We deliver enterprise-grade governance without enterprise-grade fees or complexity. Built specifically for community banks.
                 </p>
               </Card>
             </div>
@@ -173,7 +173,7 @@ export default function Home() {
               Complete AI Governance in 90 Days
             </h2>
             <p className="text-xl text-muted-foreground text-center mb-12">
-              We build the framework. You get examiner-ready documentation. No disruption to operations.
+              We partner with you to build a governance framework that works for your bank. Practical, thorough, and ready for examiners.
             </p>
 
             <div className="space-y-8">
@@ -384,6 +384,78 @@ export default function Home() {
                 </ul>
               </Card>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* AI Assistant Section */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <div className="inline-block mb-4 px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-full">
+                <span className="text-blue-400 text-sm font-medium">Try Our AI Governance Assistant</span>
+              </div>
+              
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Get Instant AI Governance Guidance
+              </h2>
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+                Our regulatory-grade AI assistant provides immediate answers on AI oversight, compliance, model governance, and fraud risk. Built on The AI CEO framework.
+              </p>
+            </div>
+
+            <Card className="p-8 bg-card text-card-foreground border-blue-500/50 border-2">
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                  <h3 className="text-2xl font-bold mb-4">What You Can Ask:</h3>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" />
+                      <span>Get a 90-day AI governance rollout plan</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" />
+                      <span>Fraud risk integration strategies</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" />
+                      <span>Regulatory exam and RFI readiness</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" />
+                      <span>AI compliance audit plans</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="text-center">
+                  <div className="mb-6">
+                    <Shield className="h-24 w-24 text-blue-500 mx-auto mb-4" />
+                    <p className="text-sm text-muted-foreground mb-4">
+                      Grounded in 2024 Treasury AI reports, FRB/OCC/FDIC guidance, and NIST frameworks
+                    </p>
+                  </div>
+                  
+                  <Button 
+                    size="lg" 
+                    className="w-full text-lg"
+                    onClick={() => window.open('https://chatgpt.com/g/YOUR-GPT-LINK', '_blank')}
+                  >
+                    Try the Assistant
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Button>
+                  
+                  <p className="text-xs text-muted-foreground mt-4">
+                    Free to use. No signup required. Opens in ChatGPT.
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            <p className="text-center text-sm text-muted-foreground mt-6">
+              <strong>Note:</strong> Update the GPT link in Settings → Code → <code className="text-xs bg-muted px-1 py-0.5 rounded">client/src/pages/Home.tsx</code>
+            </p>
           </div>
         </div>
       </section>

@@ -28,3 +28,11 @@
 - [x] Add Calendly embed widget to contact section
 - [x] Add Calendly script to HTML
 - [ ] Update placeholder URL with actual Calendly link (user action needed)
+
+## Tone and Messaging Updates
+
+- [x] Rewrite hero section with partnership tone
+- [x] Soften problem section to be supportive
+- [x] Update all fear-based language to confidence-building
+- [x] Add AI Assistant section with GPT integration
+- [x] Add placeholder link for custom GPT
