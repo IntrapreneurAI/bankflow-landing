@@ -68,7 +68,7 @@ export default function Home() {
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Your bank is innovating with AI. We help you build the governance framework that enables safe adoption while satisfying regulatory expectations.
+              AI showed up in your vendor contracts. Now regulators are asking questions. We help you understand what you have, document it, and build the governance framework examiners expect.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -130,34 +130,34 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-              We Understand Your Challenge
+              You Didn't Choose AI—Your Vendors Did
             </h2>
             <p className="text-xl text-muted-foreground text-center mb-12">
-              You're embracing AI to serve customers better. We help you do it confidently with the right governance in place.
+              Your fraud detection, credit scoring, and customer service tools already use AI. Now you need to document it, govern it, and prove it to examiners.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6">
               <Card className="p-6 bg-card text-card-foreground border-border">
                 <Building2 className="h-12 w-12 text-blue-500 mb-4" />
-                <h3 className="text-xl font-bold mb-2">AI Visibility</h3>
+                <h3 className="text-xl font-bold mb-2">Discovery First</h3>
                 <p className="text-muted-foreground">
-                  We help you identify and document every AI system—vendor and internal—so you have complete visibility and control.
+                  We start by finding every AI system in your environment—vendor and internal. You can't govern what you can't see.
                 </p>
               </Card>
 
               <Card className="p-6 bg-card text-card-foreground border-border">
                 <Scale className="h-12 w-12 text-blue-500 mb-4" />
-                <h3 className="text-xl font-bold mb-2">Regulatory Confidence</h3>
+                <h3 className="text-xl font-bold mb-2">Examiner-Ready Documentation</h3>
                 <p className="text-muted-foreground">
-                  We translate regulatory guidance into practical frameworks that satisfy examiners while enabling innovation.
+                  We translate what you have into the documentation examiners expect—model risk frameworks, vendor due diligence, and ongoing monitoring.
                 </p>
               </Card>
 
               <Card className="p-6 bg-card text-card-foreground border-border">
                 <Target className="h-12 w-12 text-blue-500 mb-4" />
-                <h3 className="text-xl font-bold mb-2">Practical Solutions</h3>
+                <h3 className="text-xl font-bold mb-2">No Big 4 Required</h3>
                 <p className="text-muted-foreground">
-                  We deliver enterprise-grade governance without enterprise-grade fees or complexity. Built specifically for community banks.
+                  We deliver the same quality governance Big 4 firms provide, but faster, more affordably, and built specifically for community banks.
                 </p>
               </Card>
             </div>
