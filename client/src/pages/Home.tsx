@@ -280,6 +280,269 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Detailed 90-Day Rollout Section */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-6">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+              Your Week-by-Week Roadmap
+            </h2>
+            <p className="text-xl text-muted-foreground text-center mb-12">
+              Here's exactly what happens each week. No surprises. No delays. Just steady progress toward examiner-ready governance.
+            </p>
+
+            <div className="space-y-6">
+              {/* Weeks 1-2 */}
+              <Card className="p-6 bg-card text-card-foreground border-border">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-16 h-16 rounded-full bg-cyan-600/10 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-cyan-600">1-2</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold mb-2">Weeks 1-2: Discovery & Kickoff</h3>
+                    <p className="text-muted-foreground mb-4">We start by understanding your current state and building the foundation.</p>
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Kickoff meeting with stakeholders</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Vendor contract review</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Internal AI system discovery</span>
+                        </li>
+                      </ul>
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Stakeholder interviews (CRO, IT, Ops)</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Initial AI inventory created</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              {/* Weeks 3-4 */}
+              <Card className="p-6 bg-card text-card-foreground border-border">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-16 h-16 rounded-full bg-cyan-600/10 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-cyan-600">3-4</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold mb-2">Weeks 3-4: Vendor Due Diligence</h3>
+                    <p className="text-muted-foreground mb-4">We assess every vendor using AI and document their risk profiles.</p>
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Send vendor questionnaires</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Risk scoring for each vendor</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Model validation assessment</span>
+                        </li>
+                      </ul>
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Data flow mapping</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Fair lending review (if applicable)</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              {/* Weeks 5-6 */}
+              <Card className="p-6 bg-card text-card-foreground border-border">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-16 h-16 rounded-full bg-cyan-600/10 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-cyan-600">5-6</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold mb-2">Weeks 5-6: Policy Development</h3>
+                    <p className="text-muted-foreground mb-4">We draft your AI governance policies and model risk framework.</p>
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">AI Governance Policy draft</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Model Risk Management framework</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Vendor Management Policy update</span>
+                        </li>
+                      </ul>
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Data Governance standards</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Review sessions with your team</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              {/* Weeks 7-8 */}
+              <Card className="p-6 bg-card text-card-foreground border-border">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-16 h-16 rounded-full bg-cyan-600/10 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-cyan-600">7-8</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold mb-2">Weeks 7-8: Documentation & Training</h3>
+                    <p className="text-muted-foreground mb-4">We finalize all documentation and train your team on the new framework.</p>
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Complete vendor due diligence files</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Model inventory documentation</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Risk assessment reports</span>
+                        </li>
+                      </ul>
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Staff training sessions (2-3 hours)</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Internal controls testing</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              {/* Weeks 9-10 */}
+              <Card className="p-6 bg-card text-card-foreground border-border">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-16 h-16 rounded-full bg-cyan-600/10 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-cyan-600">9-10</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold mb-2">Weeks 9-10: Board Presentation & Approval</h3>
+                    <p className="text-muted-foreground mb-4">We prepare and present the governance framework to your Board.</p>
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Board presentation deck</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Executive summary report</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Board meeting attendance (optional)</span>
+                        </li>
+                      </ul>
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Policy approval process</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Final revisions based on feedback</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+
+              {/* Weeks 11-12 */}
+              <Card className="p-6 bg-card text-card-foreground border-border">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-16 h-16 rounded-full bg-cyan-600/10 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-cyan-600">11-12</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold mb-2">Weeks 11-12: Implementation & Handoff</h3>
+                    <p className="text-muted-foreground mb-4">We finalize everything and hand off a complete, examiner-ready program.</p>
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Ongoing monitoring schedule</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Quarterly review templates</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Examiner response playbook</span>
+                        </li>
+                      </ul>
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">Complete documentation handoff</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-sm">30-day post-launch support</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </div>
+
+            <div className="mt-12 text-center">
+              <p className="text-lg text-muted-foreground mb-6">
+                <strong>Weekly check-ins</strong> keep you informed. <strong>No surprises.</strong> Just steady progress.
+              </p>
+              <Button 
+                size="lg" 
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Start Your 90-Day Program
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* What You Get Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-6">

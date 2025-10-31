@@ -51,3 +51,10 @@
 - [x] Change accent color from blue (#3b82f6) to teal/turquoise (cyan-600)
 - [x] Update text to navy blue for headings
 - [x] Update all color variables in index.css
+
+## Detailed 90-Day Rollout Section
+
+- [x] Add new section after "Complete AI Governance in 90 Days"
+- [x] Week-by-week breakdown for all 12 weeks
+- [x] Show specific activities and deliverables per week
+- [x] Visual timeline or accordion design
