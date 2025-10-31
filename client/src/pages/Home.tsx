@@ -125,6 +125,121 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Who Is This For Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+              Is This Program Right for Your Bank?
+            </h2>
+            <p className="text-xl text-muted-foreground text-center mb-12">
+              BankFlow.ai is purpose-built for community banks and credit unions navigating AI governance for the first time.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              {/* Perfect Fit */}
+              <Card className="p-8 bg-card text-card-foreground border-cyan-600/50 border-2">
+                <h3 className="text-2xl font-bold mb-6 text-cyan-600">Perfect Fit If You:</h3>
+                <ul className="space-y-4">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle2 className="h-6 w-6 text-cyan-600 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong className="block">Community bank or credit union</strong>
+                      <span className="text-sm text-muted-foreground">$500M to $10B in assets</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle2 className="h-6 w-6 text-cyan-600 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong className="block">Use AI through vendors</strong>
+                      <span className="text-sm text-muted-foreground">Fraud detection, credit scoring, chatbots, or core systems</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle2 className="h-6 w-6 text-cyan-600 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong className="block">Facing regulatory questions</strong>
+                      <span className="text-sm text-muted-foreground">Examiners asking about AI governance or model risk</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle2 className="h-6 w-6 text-cyan-600 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong className="block">Don't have a model risk team</strong>
+                      <span className="text-sm text-muted-foreground">Need external expertise without Big 4 fees</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle2 className="h-6 w-6 text-cyan-600 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong className="block">Want it done in 90 days</strong>
+                      <span className="text-sm text-muted-foreground">Need governance framework before next exam</span>
+                    </div>
+                  </li>
+                </ul>
+              </Card>
+
+              {/* Not a Fit */}
+              <Card className="p-8 bg-muted/30 text-card-foreground border-border">
+                <h3 className="text-2xl font-bold mb-6">Probably Not a Fit If:</h3>
+                <ul className="space-y-4">
+                  <li className="flex items-start gap-3">
+                    <div className="h-6 w-6 rounded-full bg-muted flex items-center justify-center mt-0.5 flex-shrink-0">
+                      <span className="text-xs">✕</span>
+                    </div>
+                    <div>
+                      <strong className="block">Large regional or national bank</strong>
+                      <span className="text-sm text-muted-foreground">$10B+ assets with existing model risk teams</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="h-6 w-6 rounded-full bg-muted flex items-center justify-center mt-0.5 flex-shrink-0">
+                      <span className="text-xs">✕</span>
+                    </div>
+                    <div>
+                      <strong className="block">Not using AI yet</strong>
+                      <span className="text-sm text-muted-foreground">No vendor or internal AI systems in production</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="h-6 w-6 rounded-full bg-muted flex items-center justify-center mt-0.5 flex-shrink-0">
+                      <span className="text-xs">✕</span>
+                    </div>
+                    <div>
+                      <strong className="block">Already have full governance</strong>
+                      <span className="text-sm text-muted-foreground">Complete model risk framework and documentation</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="h-6 w-6 rounded-full bg-muted flex items-center justify-center mt-0.5 flex-shrink-0">
+                      <span className="text-xs">✕</span>
+                    </div>
+                    <div>
+                      <strong className="block">Just want a policy template</strong>
+                      <span className="text-sm text-muted-foreground">Looking for DIY solution without implementation support</span>
+                    </div>
+                  </li>
+                </ul>
+              </Card>
+            </div>
+
+            {/* Key Roles */}
+            <div className="text-center">
+              <p className="text-lg text-muted-foreground mb-4">
+                <strong>Key decision makers:</strong> Chief Risk Officers, Chief Information Officers, CEOs, Compliance Officers, and Vendor Managers
+              </p>
+              <Button 
+                size="lg" 
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Schedule a Discovery Call
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Problem Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-6">

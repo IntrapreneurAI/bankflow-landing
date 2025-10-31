@@ -58,3 +58,11 @@
 - [x] Week-by-week breakdown for all 12 weeks
 - [x] Show specific activities and deliverables per week
 - [x] Visual timeline or accordion design
+
+## Who Is This For Section
+
+- [x] Add section after credibility/before challenge section
+- [x] Define ideal customer profile (community banks, $500M-$10B assets)
+- [x] Include key roles (CRO, CIO, CEO, Compliance Officer)
+- [x] Show use cases/scenarios that fit
+- [x] Add disqualifiers (who this is NOT for)
