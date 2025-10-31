@@ -240,6 +240,85 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Lead Capture Form */}
+      <section className="py-20 bg-cyan-600">
+        <div className="container mx-auto px-6">
+          <div className="max-w-2xl mx-auto">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                Ready to Get Started?
+              </h2>
+              <p className="text-xl text-white/90">
+                Schedule a 30-minute discovery call. We'll assess your current state and show you exactly how we can help.
+              </p>
+            </div>
+
+            <Card className="p-8 bg-white">
+              <form onSubmit={handleSubmit} className="space-y-6">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="space-y-2">
+                    <Label htmlFor="name">Full Name *</Label>
+                    <Input
+                      id="name"
+                      type="text"
+                      placeholder="John Smith"
+                      value={formData.name}
+                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                      required
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <Label htmlFor="title">Title *</Label>
+                    <Input
+                      id="title"
+                      type="text"
+                      placeholder="Chief Risk Officer"
+                      value={formData.title}
+                      onChange={(e) => setFormData({ ...formData, title: e.target.value })}
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="space-y-2">
+                    <Label htmlFor="email">Work Email *</Label>
+                    <Input
+                      id="email"
+                      type="email"
+                      placeholder="john@yourbank.com"
+                      value={formData.email}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      required
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <Label htmlFor="bank">Bank/Credit Union Name *</Label>
+                    <Input
+                      id="bank"
+                      type="text"
+                      placeholder="First Community Bank"
+                      value={formData.bank}
+                      onChange={(e) => setFormData({ ...formData, bank: e.target.value })}
+                      required
+                    />
+                  </div>
+                </div>
+
+                <Button type="submit" size="lg" className="w-full bg-cyan-600 hover:bg-cyan-700 text-white">
+                  Schedule Your Discovery Call
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+
+                <p className="text-sm text-center text-muted-foreground">
+                  We'll respond within 24 hours to schedule your call. No pressure, no obligation.
+                </p>
+              </form>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Problem Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-6">

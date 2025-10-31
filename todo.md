@@ -66,3 +66,10 @@
 - [x] Include key roles (CRO, CIO, CEO, Compliance Officer)
 - [x] Show use cases/scenarios that fit
 - [x] Add disqualifiers (who this is NOT for)
+
+## Lead Capture Form After Who Is This For
+
+- [x] Add form section immediately after Who Is This For section
+- [x] Include name, email, bank name, title fields
+- [x] Clear CTA: "Schedule Your Discovery Call"
+- [x] Form submission handling with toast notification
