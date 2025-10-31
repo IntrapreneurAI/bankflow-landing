@@ -43,3 +43,11 @@
 - [x] Update challenge section to acknowledge reactive position
 - [x] Emphasize "we help you understand what you have"
 - [x] Remove any "innovation" language
+
+## Northteq Aurora Color Scheme
+
+- [x] Change from dark theme to light theme
+- [x] Update to white/light gray background
+- [x] Change accent color from blue (#3b82f6) to teal/turquoise (cyan-600)
+- [x] Update text to navy blue for headings
+- [x] Update all color variables in index.css

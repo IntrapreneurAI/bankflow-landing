@@ -42,7 +42,7 @@ export default function Home() {
       <header className="border-b border-border">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <Shield className="h-8 w-8 text-blue-500" />
+            <Shield className="h-8 w-8 text-cyan-600" />
             <span className="text-2xl font-bold">BankFlow.ai</span>
           </div>
           <Button 
@@ -58,13 +58,13 @@ export default function Home() {
       <section className="py-20 md:py-32 bg-gradient-to-b from-background to-muted/20">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-block mb-4 px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-full">
-              <span className="text-blue-400 text-sm font-medium">AI Governance for Community Banks</span>
+            <div className="inline-block mb-4 px-4 py-2 bg-cyan-600/10 border border-cyan-600/20 rounded-full">
+              <span className="text-cyan-500 text-sm font-medium">AI Governance for Community Banks</span>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Examiner-Ready AI Governance<br />
-              <span className="text-blue-500">In 90 Days</span>
+              <span className="text-cyan-600">In 90 Days</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
@@ -93,15 +93,15 @@ export default function Home() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 mt-16 max-w-2xl mx-auto">
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-blue-500">4,500+</div>
+                <div className="text-3xl md:text-4xl font-bold text-cyan-600">4,500+</div>
                 <div className="text-sm text-muted-foreground mt-1">Banks Using AI</div>
               </div>
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-blue-500">90</div>
+                <div className="text-3xl md:text-4xl font-bold text-cyan-600">90</div>
                 <div className="text-sm text-muted-foreground mt-1">Days to Compliant</div>
               </div>
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-blue-500">100%</div>
+                <div className="text-3xl md:text-4xl font-bold text-cyan-600">100%</div>
                 <div className="text-sm text-muted-foreground mt-1">Examiner-Ready</div>
               </div>
             </div>
@@ -138,7 +138,7 @@ export default function Home() {
 
             <div className="grid md:grid-cols-3 gap-6">
               <Card className="p-6 bg-card text-card-foreground border-border">
-                <Building2 className="h-12 w-12 text-blue-500 mb-4" />
+                <Building2 className="h-12 w-12 text-cyan-600 mb-4" />
                 <h3 className="text-xl font-bold mb-2">Discovery First</h3>
                 <p className="text-muted-foreground">
                   We start by finding every AI system in your environment—vendor and internal. You can't govern what you can't see.
@@ -146,7 +146,7 @@ export default function Home() {
               </Card>
 
               <Card className="p-6 bg-card text-card-foreground border-border">
-                <Scale className="h-12 w-12 text-blue-500 mb-4" />
+                <Scale className="h-12 w-12 text-cyan-600 mb-4" />
                 <h3 className="text-xl font-bold mb-2">Examiner-Ready Documentation</h3>
                 <p className="text-muted-foreground">
                   We translate what you have into the documentation examiners expect—model risk frameworks, vendor due diligence, and ongoing monitoring.
@@ -154,7 +154,7 @@ export default function Home() {
               </Card>
 
               <Card className="p-6 bg-card text-card-foreground border-border">
-                <Target className="h-12 w-12 text-blue-500 mb-4" />
+                <Target className="h-12 w-12 text-cyan-600 mb-4" />
                 <h3 className="text-xl font-bold mb-2">No Big 4 Required</h3>
                 <p className="text-muted-foreground">
                   We deliver the same quality governance Big 4 firms provide, but faster, more affordably, and built specifically for community banks.
@@ -180,8 +180,8 @@ export default function Home() {
               {/* Month 1 */}
               <Card className="p-8 bg-card text-card-foreground border-border">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-16 h-16 bg-blue-500/10 rounded-lg flex items-center justify-center">
-                    <span className="text-2xl font-bold text-blue-500">1</span>
+                  <div className="flex-shrink-0 w-16 h-16 bg-cyan-600/10 rounded-lg flex items-center justify-center">
+                    <span className="text-2xl font-bold text-cyan-600">1</span>
                   </div>
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold mb-2">Month 1: Discovery & Inventory</h3>
@@ -190,19 +190,19 @@ export default function Home() {
                     </p>
                     <div className="grid sm:grid-cols-2 gap-3">
                       <div className="flex items-center gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                         <span className="text-sm">Complete AI system inventory</span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                         <span className="text-sm">Vendor AI assessment</span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                         <span className="text-sm">Risk tier assignments</span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                         <span className="text-sm">Stakeholder interviews</span>
                       </div>
                     </div>
@@ -213,8 +213,8 @@ export default function Home() {
               {/* Month 2 */}
               <Card className="p-8 bg-card text-card-foreground border-border">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-16 h-16 bg-blue-500/10 rounded-lg flex items-center justify-center">
-                    <span className="text-2xl font-bold text-blue-500">2</span>
+                  <div className="flex-shrink-0 w-16 h-16 bg-cyan-600/10 rounded-lg flex items-center justify-center">
+                    <span className="text-2xl font-bold text-cyan-600">2</span>
                   </div>
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold mb-2">Month 2: Due Diligence & Framework</h3>
@@ -223,19 +223,19 @@ export default function Home() {
                     </p>
                     <div className="grid sm:grid-cols-2 gap-3">
                       <div className="flex items-center gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                         <span className="text-sm">Vendor due diligence reports</span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                         <span className="text-sm">Model risk framework (SR 11-7)</span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                         <span className="text-sm">Fair lending testing</span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                         <span className="text-sm">AI governance policies</span>
                       </div>
                     </div>
@@ -246,8 +246,8 @@ export default function Home() {
               {/* Month 3 */}
               <Card className="p-8 bg-card text-card-foreground border-border">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-16 h-16 bg-blue-500/10 rounded-lg flex items-center justify-center">
-                    <span className="text-2xl font-bold text-blue-500">3</span>
+                  <div className="flex-shrink-0 w-16 h-16 bg-cyan-600/10 rounded-lg flex items-center justify-center">
+                    <span className="text-2xl font-bold text-cyan-600">3</span>
                   </div>
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold mb-2">Month 3: Documentation & Training</h3>
@@ -256,19 +256,19 @@ export default function Home() {
                     </p>
                     <div className="grid sm:grid-cols-2 gap-3">
                       <div className="flex items-center gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                         <span className="text-sm">Examiner-ready documentation</span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                         <span className="text-sm">Board presentation & approval</span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                         <span className="text-sm">Staff training (4 levels)</span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                         <span className="text-sm">12-month roadmap</span>
                       </div>
                     </div>
@@ -293,92 +293,92 @@ export default function Home() {
 
             <div className="grid md:grid-cols-2 gap-6">
               <Card className="p-6 bg-card text-card-foreground border-border">
-                <FileCheck className="h-10 w-10 text-blue-500 mb-4" />
+                <FileCheck className="h-10 w-10 text-cyan-600 mb-4" />
                 <h3 className="text-lg font-bold mb-2">Complete Documentation</h3>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>AI system inventory with risk tiers</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Vendor due diligence reports</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Model validation summaries</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Fair lending test results</span>
                   </li>
                 </ul>
               </Card>
 
               <Card className="p-6 bg-card text-card-foreground border-border">
-                <Shield className="h-10 w-10 text-blue-500 mb-4" />
+                <Shield className="h-10 w-10 text-cyan-600 mb-4" />
                 <h3 className="text-lg font-bold mb-2">Governance Framework</h3>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Board-approved AI governance policy</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Model risk management framework</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Third-party risk procedures</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Ongoing monitoring plan</span>
                   </li>
                 </ul>
               </Card>
 
               <Card className="p-6 bg-card text-card-foreground border-border">
-                <Users className="h-10 w-10 text-blue-500 mb-4" />
+                <Users className="h-10 w-10 text-cyan-600 mb-4" />
                 <h3 className="text-lg font-bold mb-2">Staff Training</h3>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Level 1: All staff (AI awareness)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Level 2: AI users (responsible usage)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Level 3: Risk team (governance)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Level 4: Committee (strategic oversight)</span>
                   </li>
                 </ul>
               </Card>
 
               <Card className="p-6 bg-card text-card-foreground border-border">
-                <TrendingUp className="h-10 w-10 text-blue-500 mb-4" />
+                <TrendingUp className="h-10 w-10 text-cyan-600 mb-4" />
                 <h3 className="text-lg font-bold mb-2">Ongoing Success</h3>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>12-month roadmap</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Quarterly monitoring schedule</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Board reporting templates</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <CheckCircle2 className="h-4 w-4 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <span>Optional advisory retainer</span>
                   </li>
                 </ul>
@@ -393,8 +393,8 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <div className="inline-block mb-4 px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-full">
-                <span className="text-blue-400 text-sm font-medium">Try Our AI Governance Assistant</span>
+              <div className="inline-block mb-4 px-4 py-2 bg-cyan-600/10 border border-cyan-600/20 rounded-full">
+                <span className="text-cyan-500 text-sm font-medium">Try Our AI Governance Assistant</span>
               </div>
               
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -405,25 +405,25 @@ export default function Home() {
               </p>
             </div>
 
-            <Card className="p-8 bg-card text-card-foreground border-blue-500/50 border-2">
+            <Card className="p-8 bg-card text-card-foreground border-cyan-600/50 border-2">
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <h3 className="text-2xl font-bold mb-4">What You Can Ask:</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
-                      <CheckCircle2 className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 className="h-5 w-5 text-cyan-600 mt-0.5 flex-shrink-0" />
                       <span>Get a 90-day AI governance rollout plan</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle2 className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 className="h-5 w-5 text-cyan-600 mt-0.5 flex-shrink-0" />
                       <span>Fraud risk integration strategies</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle2 className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 className="h-5 w-5 text-cyan-600 mt-0.5 flex-shrink-0" />
                       <span>Regulatory exam and RFI readiness</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle2 className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 className="h-5 w-5 text-cyan-600 mt-0.5 flex-shrink-0" />
                       <span>AI compliance audit plans</span>
                     </li>
                   </ul>
@@ -431,7 +431,7 @@ export default function Home() {
 
                 <div className="text-center">
                   <div className="mb-6">
-                    <Shield className="h-24 w-24 text-blue-500 mx-auto mb-4" />
+                    <Shield className="h-24 w-24 text-cyan-600 mx-auto mb-4" />
                     <p className="text-sm text-muted-foreground mb-4">
                       Grounded in 2024 Treasury AI reports, FRB/OCC/FDIC guidance, and NIST frameworks
                     </p>
@@ -471,32 +471,32 @@ export default function Home() {
               Comprehensive AI governance that protects your bank and enables innovation.
             </p>
 
-            <Card className="p-8 bg-card text-card-foreground border-blue-500/50 border-2">
+            <Card className="p-8 bg-card text-card-foreground border-cyan-600/50 border-2">
               <div className="text-center mb-6">
-                <div className="text-sm text-blue-400 font-medium mb-2">90-Day Pilot Program</div>
+                <div className="text-sm text-cyan-500 font-medium mb-2">90-Day Pilot Program</div>
                 <div className="text-5xl font-bold mb-2">Starting at $100K</div>
                 <div className="text-muted-foreground">Custom pricing based on bank size and complexity</div>
               </div>
 
               <div className="space-y-3 mb-8">
                 <div className="flex items-center gap-3">
-                  <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                  <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                   <span>Complete AI governance program</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                  <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                   <span>Examiner-ready documentation</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                  <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                   <span>Board presentation & approval</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                  <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                   <span>Staff training (all levels)</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <CheckCircle2 className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                  <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0" />
                   <span>12-month roadmap</span>
                 </div>
               </div>
@@ -565,7 +565,7 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div>
                 <div className="flex items-center gap-2 mb-4">
-                  <Shield className="h-6 w-6 text-blue-500" />
+                  <Shield className="h-6 w-6 text-cyan-600" />
                   <span className="text-lg font-bold">BankFlow.ai</span>
                 </div>
                 <p className="text-sm text-muted-foreground">
@@ -584,13 +584,13 @@ export default function Home() {
               <div>
                 <h4 className="font-bold mb-4">Resources</h4>
                 <div className="space-y-2 text-sm">
-                  <a href="#" className="block text-muted-foreground hover:text-blue-500 transition-colors">
+                  <a href="#" className="block text-muted-foreground hover:text-cyan-600 transition-colors">
                     Federal Reserve SR 11-7
                   </a>
-                  <a href="#" className="block text-muted-foreground hover:text-blue-500 transition-colors">
+                  <a href="#" className="block text-muted-foreground hover:text-cyan-600 transition-colors">
                     OCC 2013-29
                   </a>
-                  <a href="#" className="block text-muted-foreground hover:text-blue-500 transition-colors">
+                  <a href="#" className="block text-muted-foreground hover:text-cyan-600 transition-colors">
                     CFPB AI Guidance
                   </a>
                 </div>
