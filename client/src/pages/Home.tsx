@@ -43,7 +43,7 @@ export default function Home() {
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Shield className="h-8 w-8 text-cyan-600" />
-            <span className="text-2xl font-bold">BankFlow.ai</span>
+            <span className="text-2xl font-bold">BankFlow</span>
           </div>
           <Button 
             variant="outline" 
@@ -133,7 +133,7 @@ export default function Home() {
               Is This Program Right for Your Bank?
             </h2>
             <p className="text-xl text-muted-foreground text-center mb-12">
-              BankFlow.ai is purpose-built for community banks and credit unions navigating AI governance for the first time.
+              BankFlow is purpose-built for community banks and credit unions navigating AI governance for the first time.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -437,7 +437,7 @@ export default function Home() {
 
             {/* How to Prevent This */}
             <div className="bg-cyan-600/5 border border-cyan-600/20 rounded-lg p-8">
-              <h3 className="text-2xl font-bold mb-6 text-center">How BankFlow.ai Prevents This</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center">How BankFlow Prevents This</h3>
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="h-6 w-6 text-cyan-600 flex-shrink-0 mt-1" />
@@ -1284,7 +1284,7 @@ export default function Home() {
               Ready to Get Started?
             </h2>
             <p className="text-xl text-muted-foreground text-center mb-12">
-              Schedule a 30-minute discovery call. We'll discuss your AI usage, regulatory concerns, and how BankFlow.ai can help.
+              Schedule a 30-minute discovery call. We'll discuss your AI usage, regulatory concerns, and how BankFlow can help.
             </p>
 
             <Card className="p-2 bg-card text-card-foreground border-border overflow-hidden">
@@ -1313,7 +1313,7 @@ export default function Home() {
               <div>
                 <div className="flex items-center gap-2 mb-4">
                   <Shield className="h-6 w-6 text-cyan-600" />
-                  <span className="text-lg font-bold">BankFlow.ai</span>
+                  <span className="text-lg font-bold">BankFlow</span>
                 </div>
                 <p className="text-sm text-muted-foreground">
                   AI Governance for Community Banks. Examiner-ready in 90 days.
@@ -1345,7 +1345,7 @@ export default function Home() {
             </div>
 
             <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-              <p>© 2025 BankFlow.ai. All rights reserved.</p>
+              <p>© 2025 BankFlow. All rights reserved.</p>
               <p className="mt-2">Built by The AI CEO</p>
             </div>
           </div>

@@ -89,3 +89,11 @@
 - [x] Include Rose Beverly's bio and credentials
 - [x] Add LinkedIn links for both
 - [x] Professional layout with avatar placeholders
+
+## Rebrand to BankFlow (Remove AI from Name)
+
+- [x] Update header logo from "BankFlow.ai" to "BankFlow"
+- [x] Update all instances of "BankFlow.ai" to "BankFlow" in copy
+- [x] Update footer from "BankFlow.ai" to "BankFlow"
+- [x] Keep tagline as "AI Governance for Community Banks"
+- [x] Ensure descriptive text still mentions AI governance
