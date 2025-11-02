@@ -126,4 +126,12 @@
 
 - [x] Analyze Stott and May design elements
 - [x] Redesign BankFlow landing page with clean aesthetic
-- [ ] Save checkpoint with redesigned landing page
+- [x] Save checkpoint with redesigned landing page
+
+- [x] Document how NIST AI RMF integrates into BankFlow offering
+- [x] Explain NIST AI RMF role in value proposition
+
+- [x] Analyze Barnes & Thornburg (btlaw.com) design elements
+- [x] Create design specification for BankFlow based on B&T aesthetic
+- [x] Redesign BankFlow landing page to match B&T branding and layout
+- [ ] Save checkpoint with B&T-inspired redesign
