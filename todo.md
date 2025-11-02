@@ -102,3 +102,4 @@
 - [x] Link AI Governance Assistant button to working ChatGPT GPT URL
 - [x] Add informational purposes disclaimer below AI Assistant button
 - [x] Add section explaining how AI assistant stays updated with regulations
+- [x] Remove "Trusted by Industry Leaders" credibility section

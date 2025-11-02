@@ -109,22 +109,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Credibility Section */}
-      <section className="py-12 border-b border-border">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <p className="text-sm text-muted-foreground mb-6">Trusted by Industry Leaders</p>
-            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
-              <div className="text-muted-foreground font-medium">ELFA Member</div>
-              <div className="text-muted-foreground font-medium">Insight Investments</div>
-              <div className="text-muted-foreground font-medium">KLC Equipment Finance</div>
-              <div className="text-muted-foreground font-medium">Consult Disrupt</div>
-              <div className="text-muted-foreground font-medium">LeasePath</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Who Is This For Section */}
       <section className="py-20">
         <div className="container mx-auto px-6">
