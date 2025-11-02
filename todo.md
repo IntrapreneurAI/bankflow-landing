@@ -81,3 +81,11 @@
 - [x] Emphasize customer trust protection
 - [x] Show cost comparison (customer churn vs regulatory findings)
 - [x] Add CTA button
+
+## Meet the Team Section
+
+- [x] Add new section before AI Assistant section
+- [x] Include RJ's bio and credentials
+- [x] Include Rose Beverly's bio and credentials
+- [x] Add LinkedIn links for both
+- [x] Professional layout with avatar placeholders

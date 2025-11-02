@@ -1023,6 +1023,118 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Meet the Team Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-6">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+              Meet the Team
+            </h2>
+            <p className="text-xl text-muted-foreground text-center mb-12">
+              Industry experts with deep experience in financial services, AI governance, and emerging technology.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* RJ */}
+              <Card className="p-8">
+                <div className="flex flex-col items-center text-center">
+                  <div className="w-32 h-32 bg-gradient-to-br from-cyan-600 to-cyan-700 rounded-full flex items-center justify-center mb-6">
+                    <span className="text-4xl font-bold text-white">RJ</span>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold mb-2">RJ</h3>
+                  <p className="text-cyan-600 font-medium mb-4">Co-Founder & CEO</p>
+                  
+                  <div className="text-left w-full space-y-3 mb-6">
+                    <p className="text-muted-foreground">
+                      Scaled a financial services company from $14M to $250M in revenue. Deep expertise in equipment finance, vendor management, and regulatory compliance.
+                    </p>
+                    
+                    <div className="space-y-2">
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">ELFA Member</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">Experience with Insight Investments, KLC Equipment Finance, Consult Disrupt, LeasePath</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">Expert in AI governance for community banks</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <a 
+                    href="#" 
+                    className="text-cyan-600 hover:text-cyan-700 font-medium flex items-center gap-2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                    Connect on LinkedIn
+                  </a>
+                </div>
+              </Card>
+
+              {/* Rose Beverly */}
+              <Card className="p-8">
+                <div className="flex flex-col items-center text-center">
+                  <div className="w-32 h-32 bg-gradient-to-br from-cyan-600 to-cyan-700 rounded-full flex items-center justify-center mb-6">
+                    <span className="text-4xl font-bold text-white">RB</span>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold mb-2">Rose Beverly</h3>
+                  <p className="text-cyan-600 font-medium mb-4">Co-Founder & Chief AI Strategist</p>
+                  
+                  <div className="text-left w-full space-y-3 mb-6">
+                    <p className="text-muted-foreground">
+                      Nearly a decade of experience as Sr. Staff AI-UX Researcher and Strategist. Examines the complex interplay between emerging technologies and human behavior.
+                    </p>
+                    
+                    <div className="space-y-2">
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">UC Berkeley, Summa Cum Laude (Anthropology, Psychology, Philosophy)</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">Sr. Staff AI-UX Researcher & Strategist</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0 mt-0.5" />
+                        <span className="text-sm">Expert in AI adoption, behavioral economics, and emerging tech</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <a 
+                    href="https://www.linkedin.com/in/rosebeverly/" 
+                    className="text-cyan-600 hover:text-cyan-700 font-medium flex items-center gap-2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                    Connect on LinkedIn
+                  </a>
+                </div>
+              </Card>
+            </div>
+
+            <div className="mt-12 text-center">
+              <p className="text-lg text-muted-foreground mb-6">
+                Together, we bring financial services expertise and cutting-edge AI knowledge to help community banks navigate AI governance with confidence.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* AI Assistant Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-6">
