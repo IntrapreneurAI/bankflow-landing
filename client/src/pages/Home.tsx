@@ -319,6 +319,184 @@ export default function Home() {
         </div>
       </section>
 
+      {/* The Cost of Bad AI Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+              The Cost of Bad AI
+            </h2>
+            <p className="text-xl text-muted-foreground text-center mb-12">
+              AI deployed without governance doesn't just create regulatory risk—it destroys customer trust.
+            </p>
+
+            {/* The Horror Story */}
+            <div className="bg-muted/50 border border-border rounded-lg p-8 mb-12">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="flex-shrink-0 w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
+                  <span className="text-2xl">⚠️</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2">"It's Like Being in HELL"</h3>
+                  <p className="text-muted-foreground">
+                    A recent study monitoring real customer experiences with bank AI chatbots found results that "read like a horror novel." Customers HATE them.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="bg-background rounded-lg p-6 border-l-4 border-red-500">
+                <p className="italic text-muted-foreground mb-4">
+                  "Banks are deploying AI for cost savings without testing customer impact. The automated service tools create experiences customers described as 'HELL.' The report we shared with our clients reads like a horror novel."
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  — Research on bank AI chatbot deployments
+                </p>
+              </div>
+            </div>
+
+            {/* What Went Wrong */}
+            <div className="mb-12">
+              <h3 className="text-2xl font-bold mb-6 text-center">What Went Wrong?</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <Card className="p-6">
+                  <div className="flex items-start gap-3">
+                    <span className="text-red-500 text-xl">❌</span>
+                    <div>
+                      <h4 className="font-bold mb-2">No Customer Impact Testing</h4>
+                      <p className="text-sm text-muted-foreground">
+                        Banks deployed AI to save money without testing how customers would actually experience it.
+                      </p>
+                    </div>
+                  </div>
+                </Card>
+                
+                <Card className="p-6">
+                  <div className="flex items-start gap-3">
+                    <span className="text-red-500 text-xl">❌</span>
+                    <div>
+                      <h4 className="font-bold mb-2">No Human Escalation Paths</h4>
+                      <p className="text-sm text-muted-foreground">
+                        When AI failed, customers had no clear way to reach a human. Frustration compounded.
+                      </p>
+                    </div>
+                  </div>
+                </Card>
+                
+                <Card className="p-6">
+                  <div className="flex items-start gap-3">
+                    <span className="text-red-500 text-xl">❌</span>
+                    <div>
+                      <h4 className="font-bold mb-2">No Satisfaction Monitoring</h4>
+                      <p className="text-sm text-muted-foreground">
+                        Banks didn't track customer satisfaction. They didn't know it was failing until it was too late.
+                      </p>
+                    </div>
+                  </div>
+                </Card>
+                
+                <Card className="p-6">
+                  <div className="flex items-start gap-3">
+                    <span className="text-red-500 text-xl">❌</span>
+                    <div>
+                      <h4 className="font-bold mb-2">No Governance Framework</h4>
+                      <p className="text-sm text-muted-foreground">
+                        Without governance, there was no process to evaluate, test, or improve the AI before deployment.
+                      </p>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+            </div>
+
+            {/* The Real Cost */}
+            <div className="mb-12">
+              <h3 className="text-2xl font-bold mb-6 text-center">The Real Cost</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                <Card className="p-6 text-center">
+                  <div className="text-3xl font-bold text-red-600 mb-2">Customer Churn</div>
+                  <p className="text-sm text-muted-foreground">
+                    Frustrated customers leave. A 10% deposit loss costs far more than any regulatory finding.
+                  </p>
+                </Card>
+                
+                <Card className="p-6 text-center">
+                  <div className="text-3xl font-bold text-red-600 mb-2">Brand Damage</div>
+                  <p className="text-sm text-muted-foreground">
+                    Bad AI experiences spread through word-of-mouth and social media. Trust erodes quickly.
+                  </p>
+                </Card>
+                
+                <Card className="p-6 text-center">
+                  <div className="text-3xl font-bold text-red-600 mb-2">Regulatory Risk</div>
+                  <p className="text-sm text-muted-foreground">
+                    Examiners ask about AI governance. No framework means findings and remediation costs.
+                  </p>
+                </Card>
+              </div>
+            </div>
+
+            {/* How to Prevent This */}
+            <div className="bg-cyan-600/5 border border-cyan-600/20 rounded-lg p-8">
+              <h3 className="text-2xl font-bold mb-6 text-center">How BankFlow.ai Prevents This</h3>
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
+                <div className="flex items-start gap-3">
+                  <CheckCircle2 className="h-6 w-6 text-cyan-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <h4 className="font-bold mb-2">Customer Impact Assessment</h4>
+                    <p className="text-sm text-muted-foreground">
+                      We help you test AI with real customer scenarios before deployment.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <CheckCircle2 className="h-6 w-6 text-cyan-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <h4 className="font-bold mb-2">Human Escalation Planning</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Build clear paths for customers to reach humans when AI can't help.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <CheckCircle2 className="h-6 w-6 text-cyan-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <h4 className="font-bold mb-2">Satisfaction Monitoring</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Track customer satisfaction continuously so you can fix issues before they become disasters.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <CheckCircle2 className="h-6 w-6 text-cyan-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <h4 className="font-bold mb-2">Complete Governance Framework</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Document everything so you can prove to examiners (and customers) that you're managing AI responsibly.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="text-center">
+                <p className="text-lg font-medium mb-4">
+                  Don't let AI destroy customer trust. Govern it properly from the start.
+                </p>
+                <Button 
+                  size="lg"
+                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                >
+                  Protect Your Customers
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Problem Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-6">

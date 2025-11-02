@@ -73,3 +73,11 @@
 - [x] Include name, email, bank name, title fields
 - [x] Clear CTA: "Schedule Your Discovery Call"
 - [x] Form submission handling with toast notification
+
+## Cost of Bad AI Section
+
+- [x] Add new section after lead capture form
+- [x] Include Martin Hoffmitz chatbot failure insight
+- [x] Emphasize customer trust protection
+- [x] Show cost comparison (customer churn vs regulatory findings)
+- [x] Add CTA button
