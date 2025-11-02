@@ -134,4 +134,9 @@
 - [x] Analyze Barnes & Thornburg (btlaw.com) design elements
 - [x] Create design specification for BankFlow based on B&T aesthetic
 - [x] Redesign BankFlow landing page to match B&T branding and layout
-- [ ] Save checkpoint with B&T-inspired redesign
+- [x] Save checkpoint with B&T-inspired redesign
+
+- [x] Create Methodology page component with detailed framework
+- [x] Add routing for Methodology page in App.tsx
+- [x] Update navigation to include Methodology link
+- [ ] Save checkpoint with Methodology page

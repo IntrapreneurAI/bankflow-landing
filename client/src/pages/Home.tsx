@@ -34,6 +34,9 @@ export default function Home() {
             <a href="#approach" className="text-black font-medium hover:text-cyan-500 transition-colors duration-300 border-b-2 border-transparent hover:border-cyan-500">
               Approach
             </a>
+            <a href="/methodology" className="text-black font-medium hover:text-cyan-500 transition-colors duration-300 border-b-2 border-transparent hover:border-cyan-500">
+              Methodology
+            </a>
             <a href="#team" className="text-black font-medium hover:text-cyan-500 transition-colors duration-300 border-b-2 border-transparent hover:border-cyan-500">
               Team
             </a>
@@ -610,6 +613,7 @@ export default function Home() {
             <nav className="flex flex-wrap justify-center gap-8">
               <a href="#services" className="text-gray-400 hover:text-cyan-500 transition-colors">Services</a>
               <a href="#approach" className="text-gray-400 hover:text-cyan-500 transition-colors">Approach</a>
+              <a href="/methodology" className="text-gray-400 hover:text-cyan-500 transition-colors">Methodology</a>
               <a href="#team" className="text-gray-400 hover:text-cyan-500 transition-colors">Team</a>
               <a href="#contact" className="text-gray-400 hover:text-cyan-500 transition-colors">Contact</a>
             </nav>
