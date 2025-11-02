@@ -103,3 +103,4 @@
 - [x] Add informational purposes disclaimer below AI Assistant button
 - [x] Add section explaining how AI assistant stays updated with regulations
 - [x] Remove "Trusted by Industry Leaders" credibility section
+- [x] Add John Sokol to team section on landing page
