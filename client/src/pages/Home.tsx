@@ -413,16 +413,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Investment Section - Navy background */}
+      {/* Get Started Section - Navy background */}
       <section className="py-32 bg-slate-900 text-white">
         <div className="max-w-4xl mx-auto px-8 lg:px-16 text-center">
           <h2 className="text-5xl lg:text-6xl font-extrabold mb-8 leading-tight">
-            Fixed-Fee Investment
+            Comprehensive 90-Day Program
           </h2>
-          <div className="mb-12">
-            <div className="text-7xl font-extrabold text-cyan-500 mb-4">$100,000</div>
-            <p className="text-2xl text-gray-300">90-Day Program</p>
-          </div>
+          <p className="text-2xl text-gray-300 leading-relaxed mb-16">
+            From discovery to examiner-ready governance in 12 weeks. Fixed-fee engagement with transparent deliverables.
+          </p>
           <div className="bg-slate-800 p-12 mb-12">
             <h3 className="text-2xl font-bold mb-8">What's Included</h3>
             <div className="grid md:grid-cols-2 gap-8 text-left">
@@ -468,9 +467,17 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <p className="text-xl text-gray-300 mb-8">
-            For community banks $10B and under. No hidden fees, no scope creep.
+          <p className="text-xl text-gray-300 mb-12">
+            For community banks $10B and under. Transparent scope, no hidden fees.
           </p>
+          <Button 
+            size="lg"
+            className="bg-cyan-500 hover:bg-cyan-600 text-white text-lg px-10 py-6 font-semibold rounded inline-flex items-center gap-2 transition-all duration-300"
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+          >
+            Schedule Discovery Call
+            <ArrowRight className="w-5 h-5" />
+          </Button>
         </div>
       </section>
 

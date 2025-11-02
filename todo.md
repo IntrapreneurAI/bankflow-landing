@@ -139,4 +139,9 @@
 - [x] Create Methodology page component with detailed framework
 - [x] Add routing for Methodology page in App.tsx
 - [x] Update navigation to include Methodology link
-- [ ] Save checkpoint with Methodology page
+- [x] Save checkpoint with Methodology page
+
+- [x] Develop alternative pricing models to reduce sticker shock
+- [x] Create pricing comparison document with recommendations
+- [x] Remove all pricing from landing page (replace with value messaging)
+- [ ] Save checkpoint with updated pricing
