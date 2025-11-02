@@ -234,51 +234,268 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Deliverables summary */}
-          <div className="mt-20 bg-gray-50 p-12">
-            <h3 className="text-3xl font-bold text-black mb-8">What You Receive</h3>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h4 className="text-xl font-bold text-black mb-4">Documentation</h4>
-                <ul className="space-y-3 text-gray-700">
-                  <li className="flex items-start gap-3">
-                    <span className="text-cyan-500 mt-1">•</span>
-                    <span>AI System Inventory (10-15 vendor systems)</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-cyan-500 mt-1">•</span>
-                    <span>Vendor Due Diligence Reports (10-15 vendors)</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-cyan-500 mt-1">•</span>
-                    <span>AI Governance Policy (Board-approved)</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-cyan-500 mt-1">•</span>
-                    <span>Risk Register with mitigation strategies</span>
-                  </li>
-                </ul>
+          {/* Detailed Deliverables and Outcomes */}
+          <div className="mt-20">
+            <h3 className="text-4xl font-extrabold text-black mb-4 text-center">Comprehensive Deliverables</h3>
+            <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
+              Every engagement includes detailed documentation, actionable insights, and ongoing support materials.
+            </p>
+
+            {/* Phase 1 Deliverables */}
+            <div className="mb-12 bg-white border-l-4 border-cyan-500 p-8">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="text-4xl font-extrabold text-cyan-500">01</div>
+                <div>
+                  <h4 className="text-2xl font-bold text-black">Discovery Phase Deliverables</h4>
+                  <p className="text-gray-600">Weeks 1-2</p>
+                </div>
               </div>
-              <div>
-                <h4 className="text-xl font-bold text-black mb-4">Ongoing Support</h4>
-                <ul className="space-y-3 text-gray-700">
-                  <li className="flex items-start gap-3">
-                    <span className="text-cyan-500 mt-1">•</span>
-                    <span>12-month monitoring roadmap</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-cyan-500 mt-1">•</span>
-                    <span>KPI dashboard with thresholds</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-cyan-500 mt-1">•</span>
-                    <span>Board presentation materials</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-cyan-500 mt-1">•</span>
-                    <span>Examiner response package</span>
-                  </li>
-                </ul>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h5 className="font-bold text-black mb-3">AI System Inventory</h5>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Complete catalog of 10-15 vendor AI systems</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>System purpose and business function mapping</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Data flow diagrams for each AI system</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Vendor contact information and contract details</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-black mb-3">Risk Register</h5>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Initial risk assessment for each AI system</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Risk scoring (likelihood × impact)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Regulatory compliance gaps identified</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Prioritized remediation roadmap</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 bg-gray-50 p-6">
+                <p className="text-sm font-semibold text-black mb-2">Outcome:</p>
+                <p className="text-gray-700">Complete visibility into your AI ecosystem with clear understanding of regulatory exposure and priority areas for governance.</p>
+              </div>
+            </div>
+
+            {/* Phase 2 Deliverables */}
+            <div className="mb-12 bg-white border-l-4 border-cyan-500 p-8">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="text-4xl font-extrabold text-cyan-500">02</div>
+                <div>
+                  <h4 className="text-2xl font-bold text-black">Due Diligence Phase Deliverables</h4>
+                  <p className="text-gray-600">Weeks 3-8</p>
+                </div>
+              </div>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h5 className="font-bold text-black mb-3">Vendor Assessment Reports</h5>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Individual reports for 10-15 critical vendors</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Model validation findings (where accessible)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Third-party risk management assessment</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Vendor governance and oversight evaluation</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-black mb-3">Bias & Fairness Testing</h5>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Fair lending analysis (where applicable)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Disparate impact testing methodology</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Model explainability assessment</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Consumer protection compliance review</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 bg-gray-50 p-6">
+                <p className="text-sm font-semibold text-black mb-2">Outcome:</p>
+                <p className="text-gray-700">Comprehensive vendor risk profiles with specific findings and recommendations aligned to SR 11-7 and OCC 2013-29 requirements.</p>
+              </div>
+            </div>
+
+            {/* Phase 3 Deliverables */}
+            <div className="mb-12 bg-white border-l-4 border-cyan-500 p-8">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="text-4xl font-extrabold text-cyan-500">03</div>
+                <div>
+                  <h4 className="text-2xl font-bold text-black">Policy Phase Deliverables</h4>
+                  <p className="text-gray-600">Weeks 9-10</p>
+                </div>
+              </div>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h5 className="font-bold text-black mb-3">AI Governance Policy</h5>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Board-ready AI governance policy document</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Roles and responsibilities framework</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Risk appetite statement for AI systems</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Approval and escalation procedures</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-black mb-3">Board Materials</h5>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Executive summary presentation</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>AI risk dashboard for board reporting</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Regulatory compliance summary</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Policy approval resolution template</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 bg-gray-50 p-6">
+                <p className="text-sm font-semibold text-black mb-2">Outcome:</p>
+                <p className="text-gray-700">Board-approved AI governance framework with clear policies, procedures, and oversight mechanisms ready for examiner review.</p>
+              </div>
+            </div>
+
+            {/* Phase 4 Deliverables */}
+            <div className="mb-12 bg-white border-l-4 border-cyan-500 p-8">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="text-4xl font-extrabold text-cyan-500">04</div>
+                <div>
+                  <h4 className="text-2xl font-bold text-black">Monitoring Phase Deliverables</h4>
+                  <p className="text-gray-600">Weeks 11-12</p>
+                </div>
+              </div>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h5 className="font-bold text-black mb-3">Ongoing Monitoring Plan</h5>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>12-month monitoring roadmap</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>KPI dashboard with thresholds and triggers</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Quarterly review procedures</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Vendor performance tracking methodology</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-black mb-3">Examiner Response Package</h5>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Comprehensive documentation index</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Regulatory compliance crosswalk</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Sample responses to common examiner questions</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-cyan-500 mt-1">✓</span>
+                      <span>Evidence portfolio for each requirement</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 bg-gray-50 p-6">
+                <p className="text-sm font-semibold text-black mb-2">Outcome:</p>
+                <p className="text-gray-700">Sustainable monitoring framework with clear KPIs and examiner-ready documentation package for ongoing compliance demonstration.</p>
+              </div>
+            </div>
+
+            {/* Summary Outcomes */}
+            <div className="bg-slate-900 text-white p-12">
+              <h4 className="text-3xl font-extrabold mb-8 text-center">Program Outcomes</h4>
+              <div className="grid md:grid-cols-3 gap-8">
+                <div className="text-center">
+                  <div className="text-5xl font-extrabold text-cyan-500 mb-4">100%</div>
+                  <p className="text-xl font-semibold mb-2">Regulatory Alignment</p>
+                  <p className="text-gray-300">Every deliverable mapped to SR 11-7, OCC 2013-29, and NIST AI RMF requirements</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-5xl font-extrabold text-cyan-500 mb-4">10-15</div>
+                  <p className="text-xl font-semibold mb-2">Vendor Assessments</p>
+                  <p className="text-gray-300">Comprehensive due diligence on your critical AI vendor systems</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-5xl font-extrabold text-cyan-500 mb-4">12</div>
+                  <p className="text-xl font-semibold mb-2">Months of Monitoring</p>
+                  <p className="text-gray-300">Detailed roadmap for ongoing oversight and compliance maintenance</p>
+                </div>
               </div>
             </div>
           </div>

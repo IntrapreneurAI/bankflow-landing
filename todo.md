@@ -144,4 +144,8 @@
 - [x] Develop alternative pricing models to reduce sticker shock
 - [x] Create pricing comparison document with recommendations
 - [x] Remove all pricing from landing page (replace with value messaging)
-- [ ] Save checkpoint with updated pricing
+- [x] Save checkpoint with updated pricing
+
+- [x] Design detailed deliverables and outcomes section
+- [x] Add deliverables section to landing page
+- [ ] Save checkpoint with deliverables section
