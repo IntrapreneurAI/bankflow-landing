@@ -559,8 +559,8 @@ export default function Home() {
             </p>
           </div>
 
-          {/* 3-column team grid - circular photos, minimal cards */}
-          <div className="grid md:grid-cols-3 gap-12">
+          {/* 4-column team grid - circular photos, minimal cards */}
+          <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="mb-6 flex justify-center">
                 <div className="w-48 h-48 rounded-full bg-gray-200 overflow-hidden">
@@ -608,7 +608,7 @@ export default function Home() {
             <div className="text-center">
               <div className="mb-6 flex justify-center">
                 <div className="w-48 h-48 rounded-full bg-gray-200 overflow-hidden">
-                  <img src="/api/placeholder/200/200" alt="John Sokol" className="w-full h-full object-cover" />
+                  <img src="/john-sokol.png" alt="John Sokol" className="w-full h-full object-cover" />
                 </div>
               </div>
               <h3 className="text-2xl font-bold text-black mb-2">John Sokol</h3>
@@ -618,6 +618,28 @@ export default function Home() {
               </p>
               <a 
                 href="https://www.linkedin.com/in/sokolj/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-cyan-500 hover:text-cyan-600 transition-colors"
+              >
+                <Linkedin className="w-5 h-5" />
+                <span className="font-medium">LinkedIn</span>
+              </a>
+            </div>
+
+            <div className="text-center">
+              <div className="mb-6 flex justify-center">
+                <div className="w-48 h-48 rounded-full bg-gray-200 overflow-hidden">
+                  <img src="/susan-wagner.png" alt="Susan Wagner" className="w-full h-full object-cover" />
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-2">Susan Wagner</h3>
+              <p className="text-lg text-gray-600 mb-4">JD, CRCM, CAMS, APRP</p>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                Banking compliance attorney with expertise in regulatory risk management and anti-money laundering.
+              </p>
+              <a 
+                href="https://www.linkedin.com/in/susan-wagner-jd-crcm-cams-aprp-418a161a/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-cyan-500 hover:text-cyan-600 transition-colors"
