@@ -1187,7 +1187,7 @@ export default function Home() {
                   <Button 
                     size="lg" 
                     className="w-full text-lg"
-                    onClick={() => window.open('https://chatgpt.com/g/YOUR-GPT-LINK', '_blank')}
+                    onClick={() => window.open('https://chatgpt.com/g/g-688d2f668ffc819183ec2e4968e9d6c6-full-scope-ai-regulation-monitor-banking-v1-1-0', '_blank')}
                   >
                     Try the Assistant
                     <ArrowRight className="ml-2 h-5 w-5" />

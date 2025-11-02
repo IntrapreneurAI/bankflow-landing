@@ -99,3 +99,4 @@
 - [x] Ensure descriptive text still mentions AI governance
 
 - [x] Update bank size language from "$500M-$10B" to "$10B and under"
+- [x] Link AI Governance Assistant button to working ChatGPT GPT URL
