@@ -1204,9 +1204,46 @@ export default function Home() {
               </div>
             </Card>
 
-            <p className="text-center text-sm text-muted-foreground mt-6">
-              <strong>Note:</strong> Update the GPT link in Settings → Code → <code className="text-xs bg-muted px-1 py-0.5 rounded">client/src/pages/Home.tsx</code>
-            </p>
+            {/* How It Stays Updated */}
+            <div className="mt-12 bg-muted/30 rounded-lg p-8">
+              <h3 className="text-2xl font-bold text-center mb-6">How the Assistant Stays Current</h3>
+              
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="inline-flex items-center justify-center w-12 h-12 bg-cyan-600/10 rounded-lg mb-3">
+                    <FileCheck className="h-6 w-6 text-cyan-600" />
+                  </div>
+                  <h4 className="font-bold mb-2">Regulatory Monitoring</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Continuously tracks Federal Reserve, OCC, FDIC, and CFPB guidance on AI and model risk management
+                  </p>
+                </div>
+
+                <div className="text-center">
+                  <div className="inline-flex items-center justify-center w-12 h-12 bg-cyan-600/10 rounded-lg mb-3">
+                    <TrendingUp className="h-6 w-6 text-cyan-600" />
+                  </div>
+                  <h4 className="font-bold mb-2">Industry Updates</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Incorporates latest Treasury reports, NIST frameworks, and banking industry AI best practices
+                  </p>
+                </div>
+
+                <div className="text-center">
+                  <div className="inline-flex items-center justify-center w-12 h-12 bg-cyan-600/10 rounded-lg mb-3">
+                    <Shield className="h-6 w-6 text-cyan-600" />
+                  </div>
+                  <h4 className="font-bold mb-2">Expert Curation</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Maintained by BankFlow's governance experts to ensure accuracy and relevance for community banks
+                  </p>
+                </div>
+              </div>
+
+              <p className="text-center text-sm text-muted-foreground mt-6">
+                Last updated: November 2024 with latest interagency AI guidance
+              </p>
+            </div>
           </div>
         </div>
       </section>
