@@ -1196,6 +1196,10 @@ export default function Home() {
                   <p className="text-xs text-muted-foreground mt-4">
                     Free to use. No signup required. Opens in ChatGPT.
                   </p>
+                  
+                  <p className="text-xs text-muted-foreground mt-3 italic">
+                    For informational purposes only. Not a substitute for professional legal or regulatory advice.
+                  </p>
                 </div>
               </div>
             </Card>
