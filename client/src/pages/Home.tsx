@@ -41,8 +41,8 @@ export default function Home() {
       {/* Header */}
       <header className="border-b border-border">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <Shield className="h-8 w-8 text-cyan-600" />
+          <div className="flex items-center gap-3">
+            <img src="/Shield.jpg" alt="BankFlow Shield" className="h-10 w-10 object-contain" />
             <span className="text-2xl font-bold">BankFlow</span>
           </div>
           <Button 
@@ -1488,7 +1488,7 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div>
                 <div className="flex items-center gap-2 mb-4">
-                  <Shield className="h-6 w-6 text-cyan-600" />
+                  <img src="/Shield.jpg" alt="BankFlow Shield" className="h-8 w-8 object-contain" />
                   <span className="text-lg font-bold">BankFlow</span>
                 </div>
                 <p className="text-sm text-muted-foreground">

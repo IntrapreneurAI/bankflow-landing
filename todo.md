@@ -105,3 +105,8 @@
 - [x] Remove "Trusted by Industry Leaders" credibility section
 - [x] Add John Sokol to team section on landing page
 - [x] Add regulatory experience section below team bios
+
+- [x] Copy new logo files to landing page project
+- [x] Update landing page to use new BankFlow logos
+- [x] Update CEO mailer presentation with new logos
+- [ ] Export updated presentation to PDF
