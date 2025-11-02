@@ -144,8 +144,8 @@ export default function Home() {
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-6 w-6 text-cyan-600 mt-0.5 flex-shrink-0" />
                     <div>
-                      <strong className="block">Community bank or credit union</strong>
-                      <span className="text-sm text-muted-foreground">$500M to $10B in assets</span>
+                      <strong className="block">Community bank or credit union ($10B and under)</strong>
+                      <span className="text-sm text-muted-foreground">Large enough to have AI across multiple systems, small enough to need external governance expertise</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
@@ -188,8 +188,8 @@ export default function Home() {
                       <span className="text-xs">✕</span>
                     </div>
                     <div>
-                      <strong className="block">Large regional or national bank</strong>
-                      <span className="text-sm text-muted-foreground">$10B+ assets with existing model risk teams</span>
+                      <strong className="block">Banks over $10B in assets</strong>
+                      <span className="text-sm text-muted-foreground">You likely already have dedicated model risk management teams and established governance frameworks</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">

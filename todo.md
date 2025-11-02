@@ -97,3 +97,5 @@
 - [x] Update footer from "BankFlow.ai" to "BankFlow"
 - [x] Keep tagline as "AI Governance for Community Banks"
 - [x] Ensure descriptive text still mentions AI governance
+
+- [x] Update bank size language from "$500M-$10B" to "$10B and under"
