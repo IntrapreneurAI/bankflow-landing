@@ -104,3 +104,4 @@
 - [x] Add section explaining how AI assistant stays updated with regulations
 - [x] Remove "Trusted by Industry Leaders" credibility section
 - [x] Add John Sokol to team section on landing page
+- [x] Add regulatory experience section below team bios

@@ -1160,6 +1160,112 @@ export default function Home() {
                 Together, we bring financial services expertise and cutting-edge AI knowledge to help community banks navigate AI governance with confidence.
               </p>
             </div>
+
+            {/* Regulatory Experience Section */}
+            <div className="mt-16 bg-muted/30 rounded-lg p-8">
+              <h3 className="text-2xl font-bold text-center mb-8">Regulatory Expertise</h3>
+              
+              <div className="grid md:grid-cols-3 gap-8">
+                {/* RJ's Regulatory Experience */}
+                <div>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-cyan-600 to-cyan-700 rounded-full flex items-center justify-center">
+                      <span className="text-lg font-bold text-white">RJ</span>
+                    </div>
+                    <div>
+                      <h4 className="font-bold">RJ</h4>
+                      <p className="text-sm text-muted-foreground">Regulatory Compliance</p>
+                    </div>
+                  </div>
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start gap-2">
+                      <Shield className="h-4 w-4 text-cyan-600 flex-shrink-0 mt-0.5" />
+                      <span>15+ years navigating financial services regulations</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Shield className="h-4 w-4 text-cyan-600 flex-shrink-0 mt-0.5" />
+                      <span>Deep experience with OCC, FDIC, and state banking regulators</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Shield className="h-4 w-4 text-cyan-600 flex-shrink-0 mt-0.5" />
+                      <span>Expert in third-party risk management (OCC 2013-29)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Shield className="h-4 w-4 text-cyan-600 flex-shrink-0 mt-0.5" />
+                      <span>Managed regulatory examinations and audit responses</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Rose's Regulatory Experience */}
+                <div>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-cyan-600 to-cyan-700 rounded-full flex items-center justify-center">
+                      <span className="text-lg font-bold text-white">RB</span>
+                    </div>
+                    <div>
+                      <h4 className="font-bold">Rose Beverly</h4>
+                      <p className="text-sm text-muted-foreground">AI Governance Frameworks</p>
+                    </div>
+                  </div>
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start gap-2">
+                      <Shield className="h-4 w-4 text-cyan-600 flex-shrink-0 mt-0.5" />
+                      <span>Expert in NIST AI Risk Management Framework (AI RMF 1.0)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Shield className="h-4 w-4 text-cyan-600 flex-shrink-0 mt-0.5" />
+                      <span>Specialized in AI ethics, fairness, and bias mitigation</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Shield className="h-4 w-4 text-cyan-600 flex-shrink-0 mt-0.5" />
+                      <span>Behavioral economics applied to AI adoption and governance</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Shield className="h-4 w-4 text-cyan-600 flex-shrink-0 mt-0.5" />
+                      <span>Consumer protection and responsible AI deployment</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* John's Regulatory Experience */}
+                <div>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-cyan-600 to-cyan-700 rounded-full flex items-center justify-center">
+                      <span className="text-lg font-bold text-white">JS</span>
+                    </div>
+                    <div>
+                      <h4 className="font-bold">John Sokol</h4>
+                      <p className="text-sm text-muted-foreground">Model Risk Management</p>
+                    </div>
+                  </div>
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start gap-2">
+                      <Shield className="h-4 w-4 text-cyan-600 flex-shrink-0 mt-0.5" />
+                      <span>Technical expertise in SR 11-7 model validation requirements</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Shield className="h-4 w-4 text-cyan-600 flex-shrink-0 mt-0.5" />
+                      <span>AI model performance monitoring and outcomes analysis</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Shield className="h-4 w-4 text-cyan-600 flex-shrink-0 mt-0.5" />
+                      <span>Fair lending testing and disparate impact analysis</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Shield className="h-4 w-4 text-cyan-600 flex-shrink-0 mt-0.5" />
+                      <span>Machine learning explainability and transparency</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="mt-8 pt-6 border-t border-border">
+                <p className="text-center text-sm text-muted-foreground">
+                  <strong>Our Methodology:</strong> Built directly on Federal Reserve SR 11-7 (Model Risk Management), OCC 2013-29 (Third-Party Risk Management), and Interagency Guidance (2023). <a href="#" className="text-cyan-600 hover:text-cyan-700 underline">View full methodology →</a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
