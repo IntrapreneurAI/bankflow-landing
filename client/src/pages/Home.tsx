@@ -860,11 +860,6 @@ export default function Home() {
                   <p className="text-3xl font-extrabold text-white mb-3">$50<span className="text-lg text-gray-400">/SMB/year</span></p>
                   <p className="text-gray-300 text-sm">Pay only for enrolled clients • Best for banks with 100-500 SMBs</p>
                 </div>
-                <div className="bg-slate-800 p-6">
-                  <h4 className="text-xl font-bold text-cyan-500 mb-2">Revenue Share</h4>
-                  <p className="text-3xl font-extrabold text-white mb-3">20%<span className="text-lg text-gray-400"> of SMB fee</span></p>
-                  <p className="text-gray-300 text-sm">You charge $100-200/SMB, we get 20% • New revenue stream for your bank</p>
-                </div>
               </div>
             </div>
 
