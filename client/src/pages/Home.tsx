@@ -46,7 +46,10 @@ export default function Home() {
           </div>
           <nav className="hidden md:flex items-center gap-10">
             <a href="#services" className="text-black font-medium hover:text-cyan-500 transition-colors duration-300 border-b-2 border-transparent hover:border-cyan-500">
-              Services
+              AI Governance
+            </a>
+            <a href="#smb-education" className="text-black font-medium hover:text-cyan-500 transition-colors duration-300 border-b-2 border-transparent hover:border-cyan-500">
+              Fraud Shield
             </a>
             <a href="#approach" className="text-black font-medium hover:text-cyan-500 transition-colors duration-300 border-b-2 border-transparent hover:border-cyan-500">
               Approach
@@ -737,6 +740,191 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SMB Fraud Education Section - Navy background */}
+      <section id="smb-education" className="py-32 bg-slate-900 text-white">
+        <div className="max-w-6xl mx-auto px-8 lg:px-16">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl lg:text-6xl font-extrabold mb-8 leading-tight">
+              Fraud Shield for SMBs
+            </h2>
+            <p className="text-xl text-gray-300 leading-relaxed max-w-3xl mx-auto">
+              White-label fraud education program that helps your SMB clients prevent fraud—and positions your bank as a trusted advisor.
+            </p>
+          </div>
+
+          {/* Two-column layout */}
+          <div className="grid lg:grid-cols-2 gap-16 mb-16">
+            {/* Left: The Problem */}
+            <div>
+              <h3 className="text-3xl font-bold text-white mb-6">The Challenge</h3>
+              <p className="text-gray-300 leading-relaxed mb-6">
+                Your SMB clients are prime targets for wire fraud, phishing, and BEC attacks. When they lose money, they blame the bank. You want to help, but lack the resources to provide 1-on-1 fraud education at scale.
+              </p>
+              <ul className="space-y-4 text-gray-300">
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">✓</span>
+                  <span>1,000-5,000 SMB clients per bank</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">✓</span>
+                  <span>Rising fraud losses ($50K-$500K per incident)</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">✓</span>
+                  <span>Limited staff to provide education</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">✓</span>
+                  <span>Competitive pressure to add value</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Right: The Solution */}
+            <div>
+              <h3 className="text-3xl font-bold text-white mb-6">The Solution</h3>
+              <p className="text-gray-300 leading-relaxed mb-6">
+                BankFlow Fraud Shield is a turnkey education platform you can offer to SMB clients under your bank's brand. We provide the content, you get the credit.
+              </p>
+              <ul className="space-y-4 text-gray-300">
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">✓</span>
+                  <span><strong className="text-white">Monthly live webinars</strong> on fraud prevention</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">✓</span>
+                  <span><strong className="text-white">10-15 video modules</strong> (on-demand library)</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">✓</span>
+                  <span><strong className="text-white">AI prompting training</strong> for fraud detection</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">✓</span>
+                  <span><strong className="text-white">Certificate program</strong> for completion</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">✓</span>
+                  <span><strong className="text-white">Co-branded materials</strong> (your logo + BankFlow)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* AI Prompting - Unique Differentiator */}
+          <div className="bg-slate-800 p-12 mb-16">
+            <div className="text-center mb-10">
+              <h3 className="text-4xl font-extrabold text-white mb-4">AI Prompting for Fraud Detection</h3>
+              <p className="text-xl text-cyan-500 font-semibold">The Unique Differentiator</p>
+            </div>
+            <p className="text-gray-300 leading-relaxed mb-8 text-center max-w-3xl mx-auto">
+              We teach SMBs how to use ChatGPT, Claude, and other AI tools to analyze suspicious emails, verify vendor requests, and detect phishing attacks—before they lose money.
+            </p>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="text-5xl mb-4">📧</div>
+                <h4 className="text-xl font-bold text-white mb-3">Email Analysis</h4>
+                <p className="text-gray-300 text-sm leading-relaxed">
+                  Use AI to identify phishing attempts, BEC attacks, and social engineering tactics
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl mb-4">💳</div>
+                <h4 className="text-xl font-bold text-white mb-3">Vendor Verification</h4>
+                <p className="text-gray-300 text-sm leading-relaxed">
+                  Validate payment change requests and detect vendor impersonation fraud
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl mb-4">🎯</div>
+                <h4 className="text-xl font-bold text-white mb-3">Real-Time Detection</h4>
+                <p className="text-gray-300 text-sm leading-relaxed">
+                  Analyze suspicious activity instantly and know when to escalate to the bank
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Pricing & Value */}
+          <div className="grid lg:grid-cols-2 gap-16 mb-16">
+            <div>
+              <h3 className="text-3xl font-bold text-white mb-6">Pricing Options</h3>
+              <div className="space-y-6">
+                <div className="bg-slate-800 p-6">
+                  <h4 className="text-xl font-bold text-cyan-500 mb-2">Per-Bank Subscription</h4>
+                  <p className="text-3xl font-extrabold text-white mb-3">$2,500<span className="text-lg text-gray-400">/month</span></p>
+                  <p className="text-gray-300 text-sm">Unlimited SMB client access • Best for banks with 1,000+ SMBs</p>
+                </div>
+                <div className="bg-slate-800 p-6">
+                  <h4 className="text-xl font-bold text-cyan-500 mb-2">Per-SMB Pricing</h4>
+                  <p className="text-3xl font-extrabold text-white mb-3">$50<span className="text-lg text-gray-400">/SMB/year</span></p>
+                  <p className="text-gray-300 text-sm">Pay only for enrolled clients • Best for banks with 100-500 SMBs</p>
+                </div>
+                <div className="bg-slate-800 p-6">
+                  <h4 className="text-xl font-bold text-cyan-500 mb-2">Revenue Share</h4>
+                  <p className="text-3xl font-extrabold text-white mb-3">20%<span className="text-lg text-gray-400"> of SMB fee</span></p>
+                  <p className="text-gray-300 text-sm">You charge $100-200/SMB, we get 20% • New revenue stream for your bank</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-3xl font-bold text-white mb-6">Value for Your Bank</h3>
+              <ul className="space-y-4 text-gray-300">
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1 text-2xl">💰</span>
+                  <div>
+                    <strong className="text-white">New Revenue Stream</strong>
+                    <p className="text-sm">Charge SMBs $100-200/year for fraud protection program</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1 text-2xl">🛡️</span>
+                  <div>
+                    <strong className="text-white">Risk Reduction</strong>
+                    <p className="text-sm">Fewer fraud losses = fewer angry customers and liability claims</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1 text-2xl">⚡</span>
+                  <div>
+                    <strong className="text-white">Operational Efficiency</strong>
+                    <p className="text-sm">Scales 1-to-many without adding staff or training time</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1 text-2xl">🏆</span>
+                  <div>
+                    <strong className="text-white">Competitive Advantage</strong>
+                    <p className="text-sm">Differentiate from competitors with value-added SMB services</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1 text-2xl">🤝</span>
+                  <div>
+                    <strong className="text-white">Stronger Relationships</strong>
+                    <p className="text-sm">Position your bank as trusted advisor, not just transaction processor</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* CTA */}
+          <div className="text-center">
+            <Button 
+              size="lg"
+              className="bg-cyan-500 hover:bg-cyan-600 text-white text-lg px-10 py-6 font-semibold rounded inline-flex items-center gap-2 transition-all duration-300"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              Learn More About Fraud Shield
+              <ArrowRight className="w-5 h-5" />
+            </Button>
+            <p className="text-gray-400 mt-6 text-sm">Pilot program available • 90-day implementation</p>
+          </div>
+        </div>
+      </section>
+
       {/* AI Assistant Section - White background */}
       <section className="py-32 bg-white">
         <div className="max-w-4xl mx-auto px-8 lg:px-16 text-center">
@@ -881,8 +1069,15 @@ export default function Home() {
               <a href="#contact" className="text-gray-400 hover:text-cyan-500 transition-colors">Contact</a>
             </nav>
           </div>
-          <div className="mt-12 pt-8 border-t border-slate-800 text-center text-gray-500 text-sm">
-            <p>© 2025 BankFlow. All rights reserved.</p>
+          <div className="mt-12 pt-8 border-t border-slate-800">
+            <div className="flex flex-wrap justify-center gap-6 mb-6">
+              <a href="/privacy-policy" className="text-gray-500 hover:text-cyan-500 transition-colors text-sm">Privacy Policy</a>
+              <a href="/terms-of-service" className="text-gray-500 hover:text-cyan-500 transition-colors text-sm">Terms of Service</a>
+              <a href="/cookie-policy" className="text-gray-500 hover:text-cyan-500 transition-colors text-sm">Cookie Policy</a>
+              <a href="/disclaimer" className="text-gray-500 hover:text-cyan-500 transition-colors text-sm">Disclaimer</a>
+              <a href="/accessibility" className="text-gray-500 hover:text-cyan-500 transition-colors text-sm">Accessibility</a>
+            </div>
+            <p className="text-center text-gray-500 text-sm">© 2025 BankFlow. All rights reserved.</p>
           </div>
         </div>
       </footer>

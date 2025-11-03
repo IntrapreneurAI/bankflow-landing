@@ -7,6 +7,11 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Intake from "./pages/Intake";
 import Methodology from "./pages/Methodology";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
+import CookiePolicy from "./pages/CookiePolicy";
+import Disclaimer from "./pages/Disclaimer";
+import AccessibilityStatement from "./pages/AccessibilityStatement";
 
 function Router() {
   return (
@@ -14,6 +19,11 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path="/intake" component={Intake} />
       <Route path="/methodology" component={Methodology} />
+      <Route path="/privacy-policy" component={PrivacyPolicy} />
+      <Route path="/terms-of-service" component={TermsOfService} />
+      <Route path="/cookie-policy" component={CookiePolicy} />
+      <Route path="/disclaimer" component={Disclaimer} />
+      <Route path="/accessibility" component={AccessibilityStatement} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
