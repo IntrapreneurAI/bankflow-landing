@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Linkedin, Shield, FileText, Users, BarChart3 } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
+import { supabase } from "@/lib/supabase";
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -11,11 +12,27 @@ export default function Home() {
     title: ""
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    toast.success("Thank you! We'll be in touch within 24 hours.");
-    setFormData({ name: "", email: "", bank: "", title: "" });
+    
+    try {
+      const { error } = await supabase
+        .from('clients')
+        .insert({
+          name: formData.name,
+          email: formData.email,
+          company: formData.bank,
+          note: `Title: ${formData.title}`
+        });
+
+      if (error) throw error;
+
+      toast.success("Thank you! We'll be in touch within 24 hours.");
+      setFormData({ name: "", email: "", bank: "", title: "" });
+    } catch (error) {
+      console.error('Error saving lead:', error);
+      toast.error("Something went wrong. Please try again or email us directly.");
+    }
   };
 
   return (
@@ -564,7 +581,7 @@ export default function Home() {
             <div className="text-center">
               <div className="mb-6 flex justify-center">
                 <div className="w-48 h-48 rounded-full bg-gray-200 overflow-hidden">
-                  <img src="/api/placeholder/200/200" alt="RJ" className="w-full h-full object-cover" />
+                  <img src="/rj-grimshaw.png" alt="RJ Grimshaw" className="w-full h-full object-cover" />
                 </div>
               </div>
               <h3 className="text-2xl font-bold text-black mb-2">RJ</h3>
@@ -586,7 +603,7 @@ export default function Home() {
             <div className="text-center">
               <div className="mb-6 flex justify-center">
                 <div className="w-48 h-48 rounded-full bg-gray-200 overflow-hidden">
-                  <img src="/api/placeholder/200/200" alt="Rose Beverly" className="w-full h-full object-cover" />
+                  <img src="/rose-beverly.png" alt="Rose Beverly" className="w-full h-full object-cover" />
                 </div>
               </div>
               <h3 className="text-2xl font-bold text-black mb-2">Rose Beverly</h3>

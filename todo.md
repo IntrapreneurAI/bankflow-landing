@@ -152,9 +152,9 @@
 
 - [x] Research Susan Wagner's LinkedIn profile
 - [x] Add Susan Wagner to team section on landing page
-- [ ] Save checkpoint with Susan Wagner added to team
+- [x] Save checkpoint with Susan Wagner added to team
 
 - [x] Research Susan Wagner's LinkedIn profile
 - [x] Copy Susan's photo to project directory
 - [x] Add Susan Wagner to team section on landing page
-- [ ] Save checkpoint with Susan Wagner added to team
+- [x] Save checkpoint with Susan Wagner added to team

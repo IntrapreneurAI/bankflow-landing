@@ -1,0 +1,14 @@
+{
+  "name": "bankflow-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "sync": "tsx sync-to-notion.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.78.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0"
+  }
+}
