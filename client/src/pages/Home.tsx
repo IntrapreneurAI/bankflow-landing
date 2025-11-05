@@ -690,6 +690,28 @@ export default function Home() {
                 <span className="font-medium">LinkedIn</span>
               </a>
             </div>
+
+            <div className="text-center">
+              <div className="mb-6 flex justify-center">
+                <div className="w-48 h-48 rounded-full bg-gray-200 overflow-hidden">
+                  <img src="/mark-slade.png" alt="Mark Slade" className="w-full h-full object-cover" />
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-2">Mark Slade</h3>
+              <p className="text-lg text-gray-600 mb-4">EVP & CFO, Bank of Ann Arbor</p>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                30+ years financial administration experience. CFO at Bank of Ann Arbor overseeing financial reporting, investments, and strategic planning.
+              </p>
+              <a 
+                href="https://www.bankofannarbor.com/who-we-are/executive-team/mark-slade" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-cyan-500 hover:text-cyan-600 transition-colors"
+              >
+                <Linkedin className="w-5 h-5" />
+                <span className="font-medium">Profile</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
